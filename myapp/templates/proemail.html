@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Promotional Email</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            width: 100%;
+            margin: 0;
+            padding: 20px;
+        }
+
+        .container {
+            background-color: #ffffff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        p {
+            font-size: 18px;
+            color: #444;
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h2>Special Offer for You!</h2>
+        <p>Hello {{ user }},</p>
+        <p>We have a special offer just for you:</p>
+        <p>{{ offer_description }}</p>
+        <p>Hurry, this offer won't last long. Visit our website now to take advantage of this amazing deal!</p>
+        <p>Thank you for choosing our platform.</p>
+        <p>Sincerely,</p>
+        <p>The {{ site_name }} Team</p>
+    </div>
+</body>
+</html>
